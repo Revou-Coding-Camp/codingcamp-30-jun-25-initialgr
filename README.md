@@ -1,6 +1,7 @@
 # 🎓 E-Learning Platform
 **A modern web platform for online education**  
 *Developed Mini Project Revou Software Engineering Bootcamp*
+
 *https://revou-coding-camp.github.io/codingcamp-30-jun-25-initialgr/index.html*
 
 ## 🌟 Features
