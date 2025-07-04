@@ -7,7 +7,6 @@ https://revou-coding-camp.github.io/codingcamp-30-jun-25-initialgr/index.html
 - **Responsive Design**: Mobile-first approach with Tailwind CSS
 - **Interactive UI**: Dynamic elements with JavaScript
 - **Modern Animations**: Smooth transitions using AOS (Animate On Scroll)
-- **Professional Styling**: Custom CSS combined with Font Awesome icons
 
 ## 🛠️ Tech Stack
 Frontend:
