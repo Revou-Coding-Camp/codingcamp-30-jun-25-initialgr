@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Us</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="bg-white shadow-md">
+    <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+      <!-- Logo on left -->
+      <div class="flex items-center space-x-2">
+        <i class="fas fa-book-open text-blue-600 text-2xl"></i>
+        <span class="text-xl font-bold text-blue-600">EduLearn</span>
+      </div>
+
+      <!-- Combined container for desktop nav and mobile button -->
+      <div class="flex items-center">
+        <!-- Desktop Navigation - now properly right-aligned -->
+        <div class="hidden md:flex space-x-8">
+          <a href="index.html" class="text-gray-600 hover:text-blue-600">Home</a>
+          <a href="#" class="text-gray-600 hover:text-blue-600">Courses</a>
+          <a href="#" class="text-gray-600 hover:text-blue-600">Features</a>
+          <a href="#" class="text-gray-600 hover:text-blue-600">Events</a>
+          <a href="profile.html" class="text-blue-600 font-medium">About Us</a>
+          <a href="#" class="text-gray-600 hover:text-blue-600">Contact</a>
+        </div>
+
+        <!-- Mobile Menu Button - now properly spaced -->
+        <button id="mobileMenuButton" class="md:hidden text-gray-600 ml-4 focus:outline-none">
+          <i id="menuIcon" class="fas fa-bars text-xl"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Menu (hidden by default) -->
+    <div id="mobileMenu" class="hidden md:hidden bg-white border-t">
+      <div class="container mx-auto px-4 py-2 flex flex-col">
+        <a href="#" class="py-2 text-gray-600 hover:text-blue-600">Home</a>
+        <a href="#" class="py-2 text-gray-600 hover:text-blue-600">Courses</a>
+        <a href="#" class="py-2 text-gray-600 hover:text-blue-600">Features</a>
+        <a href="#" class="py-2 text-gray-600 hover:text-blue-600">Events</a>
+        <a href="profile.html" class="py-2 text-gray-600 hover:text-blue-600">About Us</a>
+        <a href="#" class="py-2 text-gray-600 hover:text-blue-600">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="py-16" id="home">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-col lg:flex-row">
+          <!-- Left Column -->
+          <div class="w-full lg:w-1/2 mb-8 lg:mb-0">
+            <div class="w-full lg:w-11/12">
+              <span
+                class="inline-block bg-blue-100 text-blue-600 px-3 py-1 rounded-md font-semibold text-xs uppercase mb-2"
+                data-aos="fade-up" data-aos-delay="0">
+                BOOST YOUR DREAM HERE
+              </span>
+              <h1 class="text-4xl md:text-5xl lg:text-[48px] font-bold text-[#16181B] mb-3" data-aos="fade-up"
+                data-aos-delay="100">
+                Code, Create, and Keep Growing – Your Journey Starts Here
+              </h1>
+              <p class="mb-6 lg:mb-8 text-justify" data-aos="fade-up" data-aos-delay="200">
+                <span class="font-bold text-blue-600">Sambutan dari CEO</span><br>
+                "Sebagai Founder & CEO EduLearn, saya Gilang Ramadhan dengan bangga mempersembahkan platform
+                pembelajaran digital terdepan ini. Di era transformasi digital ini, kami berkomitmen untuk menghadirkan
+                pengalaman belajar yang inovatif, menyenangkan, dan terjangkau bagi semua kalangan.
+
+                <br><br>Visi kami sederhana: <span class="italic">'Memutus batas geografis dan ekonomi dalam
+                  pendidikan'</span>. Setiap fitur yang kami kembangkan, setiap kursus yang kami tawarkan, dirancang
+                untuk memberdayakan Anda meraih potensi tertinggi.
+
+                <br><br>Bersama tim ahli kami, kami akan terus berinovasi untuk menjadi mitra terpercaya dalam
+                perjalanan belajar seumur hidup Anda."
+              </p>
+              <div class="flex flex-col sm:flex-row gap-2 mb-6 lg:mb-8" data-aos="fade-up" data-aos-delay="300">
+                <!-- Primary Button -->
+                <a class="w-full sm:w-auto bg-blue-600 text-white px-5 py-3 rounded-md font-semibold text-center"
+                  href="#">
+                  Get Started Now
+                </a>
+
+                <!-- Secondary Button -->
+                <a class="w-full sm:w-auto border border-[#494B5B]/20 hover:border-[#494B5B]/50 text-[#494B5B] px-5 py-3 rounded-md font-semibold flex items-center justify-center sm:justify-start"
+                  href="#">
+                  Learn More
+                  <svg class="ml-2" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M7 7h10v10"></path>
+                    <path d="M7 17 17 7"></path>
+                  </svg>
+                </a>
+              </div>
+              <div class="mb-6" data-aos="fade-up" data-aos-delay="400">
+                <!-- Updated title with responsive sizing -->
+                <span class="block text-base sm:text-xs uppercase tracking-wider text-[#215C5C]/90 mb-4 sm:mb-4">
+                  Trusted by major companies worldwide
+                </span>
+
+                <div class="flex flex-wrap gap-4">
+                  <!-- Each logo will take full width on mobile, auto width on desktop -->
+                  <div class="w-full sm:w-auto">
+                    <img class="w-full sm:w-[110px]" src="img/logo-apple__black.svg" alt="Company 1">
+                  </div>
+                  <div class="w-full sm:w-auto">
+                    <img class="w-full sm:w-[80px]" src="img/logo-ebay__black-1.svg" alt="Company 2">
+                  </div>
+                  <div class="w-full sm:w-auto">
+                    <img class="w-full sm:w-[110px]" src="img/logo-google__black.svg" alt="Company 3">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column - Modified for mobile -->
+          <div class="w-full lg:w-1/2 lg:relative order-first lg:order-none">
+            <div class="lg:relative mb-8 lg:mb-0">
+              <img class="w-full rounded-xl lg:absolute lg:z-0" src="img/hero-profile.png" alt="Hero Image"
+                data-aos="fade-in" data-aos-delay="500">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
